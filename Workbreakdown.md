@@ -41,41 +41,48 @@
 5. Define Architecture
 ----------------------
 
-* Database encryption
-  * Storing connection string and public/private creds in encrypted key store.
+### 5.1 Determine Infrastructure
 
-# Infrastructure
-* Web Server
-* Data Base
+#### 5.1.1 Determine Language
+
+* Identify What Expertise Your Team Has
+
+#### 5.1.2 Breakdown Budge Requirements
+
+* Hosting Services Cost
+* Domain Cost
+* Certificate Authority
+
+##### 5.1.2.1 Optional Additional Costs
+
+* SMS service for communication and multi-factor phone authentication.
+
+### 5.1. Architectural Discovery
+
+Identify:
 * Encrypted Key Store
-  * Public Private Key auth to encrypted key store
+  * Public Private Key Auth to encrypted key store
+  * For storing encrypted parameters, connection information, private keys.
+Once Programming language is determined:
+* Web Hosting
+  * Identify a solution for hosting the solution that will provide a minimum of hosting costs and maintenance requirements, while providing integration:
+    * In-flight encryption
+    * At rest encryption
+* Database
+  * At rest encrypted data-store
+
+Optional Discovery Work:
 * Two-Factor Authentication
   * Time-based one time password generation
   * SMS service for mobile phone Authentication
 
-* Access Control Policy
-  * Identity Management Business Process
-    * How users will be created.
-    * How users will be given Access
-  * Open Source Identity Management Service
-    * Deploy service and couple with identities
-  * Token based SAML
-
-# Technical Budget Requirements
-
-* Hosting Services
-* Domain Cost
-* Certificate Authority
-
-### 5.1. Est. Physical Arch.
-
-### 5.2. Logical Arch.
-
-### 5.3. ID Sec. Controls
-
-### 5.4. Define Access and Authentication Parameters
-
-### 5.5. Define Physical Controls
+### 5.2 Identify Access Control Policy
+* Identity Management Business Process
+  * How users will be created.
+  * How users will be given Access
+* Open Source Identity Management Service
+  * Deploy service and couple with identities
+* Token based SAML
 
 6. Project Management Plan
 
@@ -89,9 +96,6 @@ How it is accepted
 * GitHub pull request review board
   * Who the reviewers will be
   * This will require only certain people have access to directly push to the project
-
-
-
 
 7. Release
 ----------
