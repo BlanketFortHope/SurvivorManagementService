@@ -40,22 +40,17 @@
 
 5. Define Architecture
 ----------------------
+Work items that must be performed to do the initial software and infrastructure discovery for the application. Items on this list will require some research to determine what the best solutions are that balance:
 
-### 5.1 Determine Infrastructure
+* Cost
+* Security
+* Flexibility and Features
 
-#### 5.1.1 Determine Language
+### 5.1 Determine Language
+Language and hosting environments should be identified based on:
 
-* Identify What Expertise Your Team Has
-
-#### 5.1.2 Breakdown Budge Requirements
-
-* Hosting Services Cost
-* Domain Cost
-* Certificate Authority
-
-##### 5.1.2.1 Optional Additional Costs
-
-* SMS service for communication and multi-factor phone authentication.
+* Expertise of volunteers
+* Available OpenSource/free resources to enable the capabilities listed in the architectural discovery section.
 
 ### 5.1. Architectural Discovery
 
@@ -85,6 +80,18 @@ Optional Discovery Work:
 * Token based SAML
 
 6. Project Management Plan
+
+### 5.1 Determine Infrastructure
+
+#### 5.1.2 Breakdown Budge Requirements
+
+* Hosting Services Cost
+* Domain Cost
+* Certificate Authority
+
+##### 5.1.2.1 Optional Additional Costs
+
+* SMS service for communication and multi-factor phone authentication.
 
 ### 6.1. How the project is run
 
