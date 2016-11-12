@@ -1,13 +1,28 @@
 1. Define Business Process
 --------------------------
-
 ### 1.1. Define Roles/Business Owners
+ * From a functional/Business perspective, define the following roles:
+   - Participants: Take Action or own specific activities within the process :: Participants will become swimlanes in the resulting process maps.
+   - Business Owners: Responsible for the outcome of a particular milestone or collection of activities
+   - Stakeholders: External or Internal Participants in the process (includes customers, involved 3rd party actors, service providers, etc.)
+   - Customers: Groups or individuals who derive or receive value from the activity being performed
+   
 
 ### 1.2. Map Level 1 Process
+ Level 1 Processes defined as high level milestones or functions of the business - For Example: Identify, Intake, Monitor/Manage, Discharge, Report. 
+ 
+ Major activities within the level one process should be included as well as activity owners, inputs, outputs, dependencies, known risks or issues, policy/doctrine requirements, and general activity narrative.
 
 ### 1.3. Map Level 2 Processes
 
+Level 2 processes break down each of the level 1 activities into their detailed steps. This shoudld include decision points, process variants, and exception handling. Any time/duration and activity  values should be included.
+
+Also include required forms/signatures/approvals per activity.
+
 ### 1.4. Define Problems/Risks
+
+In review of the level 1 and level 2 process map, consider any risks to the process. Risks may be technical, functional, process, data, communication, security, etc. In evaluating risk, consider the risk probability and impact along with the consequeces if the risk materializes and define a mitigation strategy to reduce likelihood/impact.
+
 
 2. Define Database
 ------------------
