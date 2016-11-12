@@ -81,15 +81,18 @@
 
 ### 6.1. How the project is run
 
-How work is divided
+How work is divided: there should be a project manager (point person) for each step above who alerts the larger team when they can move to the next step. Project managers should continue to manage a list of critical bugs and a list of non-critical bugs. An issue should be created for any bug/group of related bugs. 
 
-How work is accessed
+How work is accessed: 
+Non-project managers should either consult a project manager or look to the issues list to work on important components of this project. 
 
 How it is accepted
 * GitHub pull request review board
-  * Who the reviewers will be
+  * Who the reviewers will be:
   * This will require only certain people have access to directly push to the project
-
+  * Any push to the project should be accompanied by a image or screenshot representing what the web tool looks like before and after changes submitted for review. 
+  *All volunteers should make sure that their edits are made to the most recent branch and thus do all they can to avoid submitting requests that create merge conflicts.
+  *Issue will be closed by project managers specifically. 
 
 
 
