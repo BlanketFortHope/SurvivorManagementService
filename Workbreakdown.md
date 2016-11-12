@@ -1,9 +1,3 @@
-WBS\
-BFH space\
-[*https://us001.blueworkslive.com/scr/processes/39d467771*](https://us001.blueworkslive.com/scr/processes/39d467771)\
-Last modified on Nov 12, 2016 2:53 PM\
-=====================================================================================================================
-
 1. Define Business Process
 --------------------------
 
@@ -47,6 +41,32 @@ Last modified on Nov 12, 2016 2:53 PM\
 5. Define Architecture
 ----------------------
 
+* Database encryption
+  * Storing connection string and public/private creds in encrypted key store.
+
+# Infrastructure
+* Web Server
+* Data Base
+* Encrypted Key Store
+  * Public Private Key auth to encrypted key store
+* Two-Factor Authentication
+  * Time-based one time password generation
+  * SMS service for mobile phone Authentication
+
+* Access Control Policy
+  * Identity Management Business Process
+    * How users will be created.
+    * How users will be given Access
+  * Open Source Identity Management Service
+    * Deploy service and couple with identities
+  * Token based SAML
+
+# Technical Budget Requirements
+
+* Hosting Services
+* Domain Cost
+* Certificate Authority
+
 ### 5.1. Est. Physical Arch.
 
 ### 5.2. Logical Arch.
@@ -57,12 +77,21 @@ Last modified on Nov 12, 2016 2:53 PM\
 
 ### 5.5. Define Physical Controls
 
-6. Test
--------
+6. Project Management Plan
 
-### 6.1. Automated Testing
+### 6.1. How the project is run
 
-### 6.2. Functional / User Acceptance Testing
+How work is divided
+
+How work is accessed
+
+How it is accepted
+* GitHub pull request review board
+  * Who the reviewers will be
+  * This will require only certain people have access to directly push to the project
+
+
+
 
 7. Release
 ----------
@@ -72,5 +101,3 @@ Last modified on Nov 12, 2016 2:53 PM\
 ### 7.2. Create User Accounts
 
 ### 7.3. Go
-
-
