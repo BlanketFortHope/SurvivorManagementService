@@ -1,9 +1,3 @@
-WBS\
-BFH space\
-[*https://us001.blueworkslive.com/scr/processes/39d467771*](https://us001.blueworkslive.com/scr/processes/39d467771)\
-Last modified on Nov 12, 2016 2:53 PM\
-=====================================================================================================================
-
 1. Define Business Process
 --------------------------
 
@@ -46,23 +40,69 @@ Last modified on Nov 12, 2016 2:53 PM\
 
 5. Define Architecture
 ----------------------
+Work items that must be performed to do the initial software and infrastructure discovery for the application. Items on this list will require some research to determine what the best solutions are that balance:
 
-### 5.1. Est. Physical Arch.
+* Cost
+* Security
+* Flexibility and Features
 
-### 5.2. Logical Arch.
+### 5.1 Determine Language
+Language and hosting environments should be identified based on:
 
-### 5.3. ID Sec. Controls
+* Expertise of volunteers
+* Available OpenSource/free resources to enable the capabilities listed in the architectural discovery section.
 
-### 5.4. Define Access and Authentication Parameters
+### 5.1. Architectural Discovery
 
-### 5.5. Define Physical Controls
+Identify:
+* Encrypted Key Store
+  * Public Private Key Auth to encrypted key store
+  * For storing encrypted parameters, connection information, private keys.
+Once Programming language is determined:
+* Web Hosting
+  * Identify a solution for hosting the solution that will provide a minimum of hosting costs and maintenance requirements, while providing integration:
+    * In-flight encryption
+    * At rest encryption
+* Database
+  * At rest encrypted data-store
 
-6. Test
--------
+Optional Discovery Work:
+* Two-Factor Authentication
+  * Time-based one time password generation
+  * SMS service for mobile phone Authentication
 
-### 6.1. Automated Testing
+### 5.2 Identify Access Control Policy
+* Identity Management Business Process
+  * How users will be created.
+  * How users will be given Access
+* Open Source Identity Management Service
+  * Deploy service and couple with identities
+* Token based SAML
 
-### 6.2. Functional / User Acceptance Testing
+6. Project Management Plan
+
+### 5.1 Determine Infrastructure
+
+#### 5.1.2 Breakdown Budge Requirements
+
+* Hosting Services Cost
+* Domain Cost
+* Certificate Authority
+
+##### 5.1.2.1 Optional Additional Costs
+
+* SMS service for communication and multi-factor phone authentication.
+
+### 6.1. How the project is run
+
+How work is divided
+
+How work is accessed
+
+How it is accepted
+* GitHub pull request review board
+  * Who the reviewers will be
+  * This will require only certain people have access to directly push to the project
 
 7. Release
 ----------
@@ -72,5 +112,3 @@ Last modified on Nov 12, 2016 2:53 PM\
 ### 7.2. Create User Accounts
 
 ### 7.3. Go
-
-
